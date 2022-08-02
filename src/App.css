@@ -1,0 +1,45 @@
+.App {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.ImgWrapper {
+  position: relative;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.Button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 108px;
+  gap: 10px;
+  cursor:pointer;
+
+  width: 342px;
+  height: 56px;
+  position: absolute;
+  bottom: 100px;
+
+  background: linear-gradient(180deg, #007DFE 0%, #007DFE 100%);
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.2);
+  border: none;
+  border-radius: 4px;
+
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  
+  text-align: center;
+  
+  color: #FFFFFF;
+}

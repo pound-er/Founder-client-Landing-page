@@ -15,7 +15,7 @@ function App() {
       <div className="ImgWrapper">
       <img className="Img" src={LandingPage}/>
       
-      <button className="Button" onClick={() => handleCopyClipBoard('https://founder.vercel.app/')}>링크 복사하기</button>
+      <button className="Button" onClick={() => handleCopyClipBoard('https://found-er.co.kr')}>링크 복사하기</button>
       
       </div>
     </div>
